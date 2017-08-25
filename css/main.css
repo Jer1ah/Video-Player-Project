@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+}
+
+p {
+    max-width: 90%;
+    margin: 2em auto;
+    font-size: 20px;
+}
+
+.mrg-btm {
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+
+.targeted {
+    color: orange;
+}
+
+
+@media(min-width: 768px) {
+    #bodyWrap {
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    p {
+        max-width: 100%;
+    }
+}
+
